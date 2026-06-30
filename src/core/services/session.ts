@@ -14,4 +14,11 @@ export class SessionService {
   async get(): Promise<AuthSession | null> {
     return this.sessionRepository.get();
   }
+
+  /**
+   * Verify the authentication based on stored session.
+   */
+  async isAuthenticated(): Promise<boolean> {
+    return !!await this.sessionRepository.get();
+  }
 }
