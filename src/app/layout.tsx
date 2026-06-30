@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 /*import { Geist, Geist_Mono } from "next/font/google";*/
-import "./globals.css";
+import './globals.css';
 
 /*const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -8,8 +8,8 @@ import "./globals.css";
 });*/
 
 export const metadata: Metadata = {
-  title: "Sportsee",
-  description: "Sportsee is a platform for tracking your sports activities",
+  title: 'Sportsee',
+  description: 'Sportsee is a platform for tracking your sports activities',
 };
 
 export default function RootLayout({
